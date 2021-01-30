@@ -368,7 +368,7 @@ impl<'a> Table<'a> {
 
 #[derive(Debug, Clone)]
 pub struct TableState {
-    offset: usize,
+    pub offset: usize,
     selected: Option<usize>,
 }
 
